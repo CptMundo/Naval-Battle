@@ -21,3 +21,14 @@ print("2. The ocean is a 5x5 grid, and you'll guess the row and column from 1 to
 print("3. If you guess correctly, you win!\n")
 print("4. If you miss, the ocean grid will mark it with an 'X'.\n")
 print("5. If you guess a location you've already guessed, it won't count.\n")
+
+
+# Display the ocean grid with spacing and numbering
+print("    1 2 3 4 5\n")
+for i, row in enumerate(ocean, 1):
+    print(f"{i}   {' '.join(row)}")
+
+
+
+print("\nPress any key to start...")
+input()  # This line waits for any key press
