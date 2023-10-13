@@ -22,13 +22,41 @@ print("3. If you guess correctly, you win!\n")
 print("4. If you miss, the ocean grid will mark it with an 'X'.\n")
 print("5. If you guess a location you've already guessed, it won't count.\n")
 
-
 # Display the ocean grid with spacing and numbering
 print("    1 2 3 4 5\n")
 for i, row in enumerate(ocean, 1):
     print(f"{i}   {' '.join(row)}")
 
-
-
 print("\nPress any key to start...")
 input()  # This line waits for any key press
+
+#JUST FOR TESTING
+print(f"The ship's position is: row {ship_row}, col {ship_col}")
+
+for _ in range(attempts):
+    print("\nTurn", _ + 1)
+    
+    # Display ocean grid
+    print("    1 2 3 4 5")
+    for i, row in enumerate(ocean, 1):
+        print(f"{i}   {' '.join(row)}")
+    
+    # Get the player guess
+    guess_row = int(input("Guess Row (1-5): "))
+    guess_col = int(input("Guess Col (1-5): "))
+    
+    # Check if the guess is correct
+    if guess_row == ship_row and guess_col == ship_col:
+        print(f"Congratulations, {player_name}! You sunk my battleship!")
+        break
+    else:
+        if 1 <= guess_row <= 5 and 1 <= guess_col <= 5:
+            if ocean[guess_row - 1][guess_col - 1] == "X":
+                print(f"You already guessed that one, {player_name}!")
+            else:
+                print(f"You missed my battleship, {player_name}!")
+                ocean[guess_row - 1][guess_col - 1] = "X"
+        else:
+            print(f"Oops, that's not even in the ocean, {player_name}.")
+
+
