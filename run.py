@@ -31,7 +31,7 @@ print("\nPress any key to start...")
 input()  # This line waits for any key press
 
 #JUST FOR TESTING
-print(f"The ship's position is: row {ship_row}, col {ship_col}")
+#print(f"The ship's position is: row {ship_row}, col {ship_col}")
 
 for _ in range(attempts):
     print("\nTurn", _ + 1)
