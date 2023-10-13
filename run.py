@@ -59,4 +59,6 @@ for _ in range(attempts):
         else:
             print(f"Oops, that's not even in the ocean, {player_name}.")
 
-
+# If the loop the player loses
+else:
+    print(f"\nGame Over, {player_name}. The battleship was hidden!")
