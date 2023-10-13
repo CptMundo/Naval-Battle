@@ -1,4 +1,5 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-#Day 1
+# Create an empty 5x5 grid for the ocean
+ocean = [["O" for _ in range(5)] for _ in range(5)]
+
+for row in ocean:
+    print(' '.join(row))
