@@ -71,3 +71,6 @@ print("\nHere's the battleship location:")
 print("    1 2 3 4 5")
 for i, row in enumerate(ocean, 1):
     print(f"{i}   {' '.join(row)}")
+
+# Display the row and column of the ship's position
+print(f"\nThe ship's position was: row: {ship_row}, col: {ship_col}")
