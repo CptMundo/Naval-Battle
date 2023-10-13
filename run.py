@@ -62,3 +62,12 @@ for _ in range(attempts):
 # If the loop the player loses
 else:
     print(f"\nGame Over, {player_name}. The battleship was hidden!")
+
+    # Shows battleship location with '8' after player loses game
+ocean[ship_row - 1][ship_col - 1] = "8"
+
+# Display ocean with the battleship locations and player attempts
+print("\nHere's the battleship location:")
+print("    1 2 3 4 5")
+for i, row in enumerate(ocean, 1):
+    print(f"{i}   {' '.join(row)}")
