@@ -37,7 +37,7 @@ for _ in range(attempts):
     print("\nTurn", _ + 1)
     
     # Display ocean grid
-    print("    1 2 3 4 5")
+    print("    1 2 3 4 5\n")
     for i, row in enumerate(ocean, 1):
         print(f"{i}   {' '.join(row)}")
     
@@ -68,7 +68,7 @@ ocean[ship_row - 1][ship_col - 1] = "8"
 
 # Display ocean with the battleship locations and player attempts
 print("\nHere's the battleship location:")
-print("    1 2 3 4 5")
+print("    1 2 3 4 5\n")
 for i, row in enumerate(ocean, 1):
     print(f"{i}   {' '.join(row)}")
 
