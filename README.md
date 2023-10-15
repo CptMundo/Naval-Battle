@@ -2,10 +2,11 @@
 
 Welcome to Naval Battle, an engaging card matching game with a naval warfare theme. Test your  strategy skills as you aim to sink all the battleships!
 
-![mockup](./assets/images/readme-images/mockup.png)
+![mockup](."filephat")
 
 ## Table of Contents
 - [Naval Battle]
+
 
   
 
@@ -29,3 +30,7 @@ Welcome to the Naval Battle game! This is a simple Python-based game where you t
 
 7. Losing Condition: If you use up all 6 attempts and don't successfully guess the battleship's location, you lose the game. The game will reveal the battleship's location at this point.
 
+## Installation
+
+1. Clone this repository to your local machine.
+2. Open the project folder in your preferred code editor.
