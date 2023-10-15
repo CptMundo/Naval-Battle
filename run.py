@@ -11,7 +11,7 @@ ship_col = random.randint(1, 5)
 player_name = input("Welcome to Naval Battle! Please enter your name: ")
 
 # Game loop
-attempts = 3
+attempts = 6
 
 print(f"Welcome, {player_name}!\n")
 print("In this game, you will try to sink my battleship.\n")
@@ -31,7 +31,7 @@ print("\nPress any key to start...")
 input()  # This line waits for any key press
 
 #JUST FOR TESTING
-#print(f"The ship's position is: row {ship_row}, col {ship_col}")
+print(f"The ship's position is: row {ship_row}, col {ship_col}")
 
 for _ in range(attempts):
     print("\nTurn", _ + 1)
