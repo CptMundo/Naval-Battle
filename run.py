@@ -27,7 +27,7 @@ print("    1 2 3 4 5\n")
 for i, row in enumerate(ocean, 1):
     print(f"{i}   {' '.join(row)}")
 
-print("\nPress any key to start...")
+print("\nPress ENTER to start...")
 input()  # This line waits for any key press
 
 for _ in range(attempts):
@@ -44,7 +44,7 @@ for _ in range(attempts):
     
     # Check if the guess is correct
     if guess_row == ship_row and guess_col == ship_col:
-        print(f"Congratulations, {player_name}! You sunk my battleship!")
+        print(f"\nCongratulations, {player_name}! You sunk my battleship!")
         break
     else:
         if 1 <= guess_row <= 5 and 1 <= guess_col <= 5:
