@@ -1,32 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Naval Battlle
 
-Welcome,
+Welcome to Naval Battle, an engaging card matching game with a naval warfare theme. Test your  strategy skills as you aim to sink all the battleships!
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+![mockup](./assets/images/readme-images/mockup.png)
 
-## Reminders
+## Table of Contents
+- [Naval Battle]
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+  
 
-## Creating the Heroku app
+## Introduction
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+Welcome to the Naval Battle game! This is a simple Python-based game where you try to sink the computer's battleship by guessing its location on a 5x5 grid. This readme provides an overview of the game, its rules, and how to play.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## How to Play
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+1. Objective: The objective of the game is to sink the computer's battleship by correctly guessing its location on a 5x5 grid.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+2. Attempts: You have a total of 6 attempts to guess the battleship's location.
 
-Connect your GitHub repository and deploy as normal.
+3. Grid: The game is played on a 5x5 grid, and you will guess both the row and column where you think the battleship is located. The rows and columns are numbered from 1 to 5.
 
-## Constraints
+4. Winning Condition: If you guess the correct row and column where the battleship is positioned, you win the game.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+5. Missed Guesses: If your guess is incorrect, the grid will mark the location with an 'X' to indicate a missed guess.
 
----
+6. Repeated Guesses: If you guess a location that you've already guessed in a previous turn, it won't count as a valid guess, and you won't be penalized for repeating the same guess.
 
-Happy coding!
+7. Losing Condition: If you use up all 6 attempts and don't successfully guess the battleship's location, you lose the game. The game will reveal the battleship's location at this point.
+
