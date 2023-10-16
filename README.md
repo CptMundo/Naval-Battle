@@ -1,12 +1,31 @@
-# Naval Battlle
+# Naval Battle
 
 Welcome to Naval Battle, an engaging card matching game with a naval warfare theme. Test your  strategy skills as you aim to sink all the battleships!
 
-![mockup](."filephat")
+![mockup](./readme-images/mockup.png)
 
 ## Table of Contents
-- [Naval Battle]
-
+- [Naval Battle](#naval-battle)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Game Features](#game-features)
+    - [Player Name](#player-name)
+    - [Guesses in the grid](#attempts-marked-in-the-grid)
+    - [Play Again](#play-again)
+  - [How to Play](#how-to-play)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Wireframe](#wireframe)
+  - [Bugs](#bugs)
+    - [Bug 1: Columns Number Without Spacing](#columns-number-without-spacing)
+    - [Bug 2: Press Any Key](#press-any-key)
+  - [Goals](#goals)
+    - [Grid](#random-elements)
+    - [Input](#input)
+    - [Random Elements](#random-elements)
+    - [If](#event-listeners)
+  - [Credits](#credits)
+  - [License](#license)
 
   
 
