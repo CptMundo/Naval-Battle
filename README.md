@@ -13,7 +13,7 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
     - [Guesses on the grid](#attempts-marked-on-the-grid)
     - [Play Again](#play-again)
   - [How to Play](#how-to-play)
-  - [Installation](#installation)
+  - [Deployment](#deployment)
   - [Usage](#usage)
   - [Wireframe](#wireframe)
   - [Bugs](#bugs)
@@ -72,7 +72,53 @@ Welcome to the Naval Battle game! This is a simple Python-based game where you t
 
 7. Losing Condition: If you use up all 6 attempts and don't successfully guess the battleship's location, you lose the game. The game will reveal the battleship's location at this point.
 
-## Installation
+## Deployment
 
-1. Clone this repository to your local machine.
-2. Open the project folder in your preferred code editor.
+The project was deployed using the Heroku Cloud applictaion platform.
+
+It is assumed here that GitHub and GitPod accounts are already set up.
+
+Preliminary steps...
+
+a.	from the console window in GitPod enter the following command..
+
+		pip freeze > requirements.txt
+	
+	This will push the requirements of the project into the requirements.txt file,
+	and allow Heroku the configuration information that it needs to build the project.
+	
+b.	Make sure changes are committed and pushed to GitHub before continuing.
+
+To deploy to Heroku, follow these steps...
+
+a.	Go to [Heroku](https://www.heroku.com/) and create a free account.
+
+b.	The site will send an email for verification. Perform the required email confirmation.
+
+c.	Once logged in....
+
+        	Click new / Create new app
+	
+d.	Give the app a unique name, pick your region between United States and Europe, and click "Create app".
+
+e.	Click on the Settings tab, and go to the Buildpacks section.
+
+f.	Click "Add buildpack", select the "Python" option, and click save.
+
+g.	Click "Add buildpack" select the "nodejs" option, and click save.
+
+		Make sure that "python" is the first option and "nodejs" the second.
+			- they can be dragged here to change the order.
+			
+h.	Settings are complete - click the "Deploy" tab.
+
+i.	Click GitHub for Deployment method
+
+		search for the project name in the search box, and click connect.
+		
+j.	From here you can select Automatic or Manual deploy.
+
+		Automatic deploy will re-deploy the application every time the project is "git pushed".
+		
+k.	If you select "Manual deploy", after the project has been built, click "view" to 
+                see the deployed page.
