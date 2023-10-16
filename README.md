@@ -10,7 +10,7 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
   - [Introduction](#introduction)
   - [Game Features](#game-features)
     - [Player Name](#player-name)
-    - [Guesses in the grid](#attempts-marked-in-the-grid)
+    - [Guesses on the grid](#attempts-marked-on-the-grid)
     - [Play Again](#play-again)
   - [How to Play](#how-to-play)
   - [Installation](#installation)
@@ -38,6 +38,17 @@ Welcome to the Naval Battle game! This is a simple Python-based game where you t
 **Naval Battle** offer's a couple of simple features that enhance and simplify your gaming experience:
 
 ### Player Name
+
+- Allow players to input their names at the start of the game. The game recalls the name, creating a more engaging and personalized experience, with this feature we can enhanced player engagement and a personal touch to the gaming experience.
+
+### Guesses on the grid
+
+- The game utilizes a grid to mark player guesses. Correct guesses result in a "hit," while incorrect guesses are marked with an "X" on the grid. Duplicate guesses are also tracked. It provides a visual feedback to the player about their guesses, enhancing the gameplay experience and preventing redundant guesses.
+
+### Play Again
+
+- After a game ends, players are given the option to play again. If they choose to do so, the game can be replayed with the same name and without showing the rules again. Allows for quick and convenient game replay without the need to re-enter the player's name or view the rules repeatedly. Enhances the overall user experience.
+
 
 ## How to Play
 
