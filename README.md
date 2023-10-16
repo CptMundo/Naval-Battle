@@ -41,13 +41,19 @@ Welcome to the Naval Battle game! This is a simple Python-based game where you t
 
 - Allow players to input their names at the start of the game. The game recalls the name, creating a more engaging and personalized experience, with this feature we can enhanced player engagement and a personal touch to the gaming experience.
 
+    ![player-name](./readme-images/player-name.png)
+
 ### Guesses on the grid
 
 - The game utilizes a grid to mark player guesses. Correct guesses result in a "hit," while incorrect guesses are marked with an "X" on the grid. Duplicate guesses are also tracked. It provides a visual feedback to the player about their guesses, enhancing the gameplay experience and preventing redundant guesses.
 
+    ![guesses-on-grid](./readme-images/marked-grid.png)
+
 ### Play Again
 
 - After a game ends, players are given the option to play again. If they choose to do so, the game can be replayed with the same name and without showing the rules again. Allows for quick and convenient game replay without the need to re-enter the player's name or view the rules repeatedly. Enhances the overall user experience.
+
+    ![play-again](./readme-images/play-again.png)
 
 
 ## How to Play
