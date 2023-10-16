@@ -1,5 +1,6 @@
 import random
 
+
 # Function to play the game
 def play_game(player_name, show_rules=True):
     # Create an empty 5x5 grid for the ocean
@@ -16,11 +17,11 @@ def play_game(player_name, show_rules=True):
         print(f"Welcome, {player_name}!\n")
         print("In this game, you will try to sink my battleship.\n")
         print("Here are the rules:\n")
-        print(f"1. You have {attempts} attempts to guess the ship's location.\n")
-        print("2. The ocean is a 5x5 grid, and you'll guess the row and column from 1 to 5.\n")
+        print(f"1. You have {attempts} trys to guess the ship's location.\n")
+        print("2. The ocean is a 5x5 grid,find the row and column from 1-5.\n")
         print("3. If you guess correctly, you win!\n")
         print("4. If you miss, the ocean grid will mark it with an 'X'.\n")
-        print("5. If you guess a location you've already guessed, it won't count.\n")
+        print("5. If you hit a location you already tried, it won't count.\n")
 
     # Display the ocean grid with spacing and numbering
     print("    1 2 3 4 5\n")
@@ -73,7 +74,10 @@ def play_game(player_name, show_rules=True):
         print(f"\nThe ship's position was: row: {ship_row}, col: {ship_col}")
 
 # Player chooses name
+
+
 player_name = input("Welcome to Naval Battle! Please enter your name: ")
+
 
 play_again = "yes"
 show_rules = True
