@@ -33,6 +33,12 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
 
 Welcome to the Naval Battle game! This is a simple Python-based game where you try to sink the computer's battleship by guessing its location on a 5x5 grid. This readme provides an overview of the game, its rules, and how to play.
 
+## Game Features
+
+**Naval Battle** offer's a couple of simple features that enhance and simplify your gaming experience:
+
+### Player Name
+
 ## How to Play
 
 1. Objective: The objective of the game is to sink the computer's battleship by correctly guessing its location on a 5x5 grid.
