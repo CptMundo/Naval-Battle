@@ -18,6 +18,7 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
   - [Bugs](#bugs)
     - [Bug 1: Columns Number Without Spacing](#columns-number-without-spacing)
     - [Bug 2: Press Any Key](#press-any-key)
+    - [Bug 3: Player Name not found](player-name-not-found)
   - [Testing](#testing) 
   - [Goals](#goals)
   - [Credits](#credits)
@@ -138,9 +139,15 @@ I encountered a bug where there was no space between the column numbers and the 
 
 ### Bug 2: Press Any Key
 
-"I found a bug where the code prompts the user to press any key, but it only responds to the 'Enter' key, ignoring other key presses.
+I found a bug where the code prompts the user to press any key, but it only responds to the 'Enter' key, ignoring other key presses.
 
 ![key-bug](./readme-images/bug-key.png)
+
+### Bug 3: Player Name not found
+
+The 'player_name' variable was initially declared inside the function, limiting its scope to that specific function. However, I needed to access this variable later in the program, in a different context or outside the function. To make it accessible throughout the entire program, I had to move the declaration of the 'player_name' variable outside of the function, allowing it to be used in various parts of the code.
+
+![player-name-bug](./readme-images/player-name-bug.png)
 
 ## Testing
 
