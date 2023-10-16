@@ -20,10 +20,6 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
     - [Bug 2: Press Any Key](#press-any-key)
   - [Testing](#testing) 
   - [Goals](#goals)
-    - [Grid](#random-elements)
-    - [Input](#input)
-    - [Random Elements](#random-elements)
-    - [If](#event-listeners)
   - [Credits](#credits)
   - [License](#license)
 
@@ -156,4 +152,19 @@ My primary objective was to embark on a learning journey with Python, aiming not
 
 ## Credits
 
+Special thanks to the following individuals and resources who contributed to the development of **Naval Battle**:
+
+- [Victor Da Silva](https://www.linkedin.com/in/victor-da-silva-033399228/) - Project Developer
+- [StackExchange](https://codereview.stackexchange.com/questions/232013/a-simple-battleship-game) - Provided an idea of how i could develop my code.
+- [KnowledgeMavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ) - I'm grateful for the tutorial that provided valuable insights and guidance, which I creatively applied to develop **Naval Battle**
+- [Code Institute](https://codeinstitute.net/global/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+ROW+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=15207113220&hsa_grp=130324141420&hsa_ad=635849256710&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjwvrOpBhBdEiwAR58-3Jw-IRq9Nhc8n99ohNKCVXaeM2l9an-B7IIWlNxTzz5Bk4T9BaaySRoC4lcQAvD_BwE) - I want to express my sincere appreciation to my school for the invaluable tutorials they provided as part of the courses, which greatly contributed to my learning and the development of my skills, and also to the wonderful community that helped trough the project.
+
+Feel free to update and add to the credits section as you fulfill it with the names and contributions of individuals and resources involved in your project.
+
 ## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy playing **Naval Battle** and test your strategy skills in the ocean!
