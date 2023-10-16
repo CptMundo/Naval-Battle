@@ -14,11 +14,11 @@ Welcome to Naval Battle, an engaging card matching game with a naval warfare the
     - [Play Again](#play-again)
   - [How to Play](#how-to-play)
   - [Deployment](#deployment)
-  - [Usage](#usage)
-  - [Wireframe](#wireframe)
+  - [Logic Flow Chart](#logic-flow-chart)
   - [Bugs](#bugs)
     - [Bug 1: Columns Number Without Spacing](#columns-number-without-spacing)
     - [Bug 2: Press Any Key](#press-any-key)
+  - [Testing](#testing) 
   - [Goals](#goals)
     - [Grid](#random-elements)
     - [Input](#input)
@@ -122,3 +122,33 @@ j.	From here you can select Automatic or Manual deploy.
 		
 k.	If you select "Manual deploy", after the project has been built, click "view" to 
                 see the deployed page.
+
+## Logic Flow Chart
+
+![logic-flow-chart](./readme-images/chart.png)
+
+
+
+## Bugs
+
+
+
+### Bug 1: Columns Number Without Spacing
+
+### Bug 2: Press Any Key
+
+## Testing
+
+## Goals
+
+### Grid
+
+### Input
+
+### Random Elements
+
+### If
+
+## Credits
+
+## License
