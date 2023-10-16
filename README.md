@@ -131,23 +131,28 @@ k.	If you select "Manual deploy", after the project has been built, click "view"
 
 ## Bugs
 
+I've identified a couple bugs while working on the project. These issues range from minor glitches to more significant problems that may need attention. If you find some more bug's while using this code dont hesitate to report them [here](https://www.linkedin.com/in/victor-da-silva-033399228/). Alternatively, you can create an issue on the [GitHub repository](https://github.com/CptMundo/Gotta-Catch-Em-All) for this project. 
 
 
 ### Bug 1: Columns Number Without Spacing
 
+I encountered a bug where there was no space between the column numbers and the grid
+
+![spacing-bug](./readme-images/bug-grid.png)
+
 ### Bug 2: Press Any Key
+
+"I found a bug where the code prompts the user to press any key, but it only responds to the 'Enter' key, ignoring other key presses.
+
+![key-bug](./readme-images/bug-key.png)
 
 ## Testing
 
+This code files were successfully run though the [Code Institute PEP8 Linter](https://pep8ci.herokuapp.com/).  
+
 ## Goals
 
-### Grid
-
-### Input
-
-### Random Elements
-
-### If
+My primary objective was to embark on a learning journey with Python, aiming not only to acquire a solid understanding of the language but also to significantly enhance my comfort and proficiency in utilizing Python for various coding tasks. Through consistent practice, exploration of Python's features, and real-world application, I aimed to build a robust foundation and develop the confidence to tackle complex programming challenges with Python.
 
 ## Credits
 
